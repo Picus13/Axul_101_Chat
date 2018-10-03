@@ -1,0 +1,315 @@
+<<!doctype html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+
+        <title>Axul 101 : Messagerie Instantanée Alternative</title>
+
+        <meta name="description" content="Alternatives libres aux messageries propriétaires">
+        <meta name="author" content="Julian B.">
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+        <link rel="stylesheet" href="revealjs/css/reveal.css">
+        <link rel="stylesheet" href="revealjs/css/theme/black.css" id="theme">
+
+        <!-- Code syntax highlighting -->
+        <link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match(/print-pdf/gi) ? 'revealjs/css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        </script>
+
+        <!--[if lt IE 9]>
+        <script src="revealjs/lib/js/html5shiv.js"></script>
+        <![endif]-->
+    </head>
+
+    <body>
+
+        <div class="reveal">
+
+            <!-- Any section element inside of this container is displayed as a slide -->
+            <div class="slides">
+                <section>
+                	<img  style="background: none; border: none; box-shadow: none; margin:0;" src="media/axul.png" height="150"/>
+                    <h2>Les messageries instantanées alternatives </h2>
+                    <p><small>Une présentation par <a href="https://kappie.xyz/" target="_blank">Kappie</a> pour l'<a href="https://axul.org" target="_blank">Axul</a></small></p>
+                </section>
+
+                <section>
+<!--                    <section>
+                    </section>-->
+                    <section>
+                        <h2>Les messageries instantanées propriétaires</h2>
+                        <ul>
+                            <li>Messenger et WhatsApp de Facebook</li>
+                            <li>Snapchat</li>
+                            <li>Skype(Microsoft), Viber(Rakuten), Line ...</li>
+                        </ul>
+                        <p class="fragment">
+                            <br/>
+                            <span style="color: #42affa">
+                                Applications gratuites, simples à l'utilisation adossé à un eco-système mais ...
+                            </span>
+                            </p>
+                            <p class="fragment">
+                            <span style="color: #42affa">
+                            	Données centralisées, chiffrement douteux, utilisations des données ? 
+                            </span>
+                        </p>
+                    </section>
+                </section>
+
+                <section>
+                        <small>#1</small>
+                        <h2>Les messageries instantanées alternatives</h2>
+
+                        <ul>
+                            <li>Partiellement open source ou libre</li>
+                            <li>Chiffrement et décentralisation</li>
+                        </ul>
+                </section>
+
+                <section>
+                    <section>
+                        <img  style="background: none; border: none; box-shadow: none; margin:0;" src="media/telegram.png" height="200"/><br />
+                        <small>#2</small>
+                        <h2>Telegram</h2>
+                        <ul>
+                            <li>Hebergé en Cloud · Chiffrement de bout en bout, non stockée sur les serveurs</li>
+                            <li>Partielement open souce : Client libre / Serveur sous licence propriétaire</li>
+                        </ul>
+                    </section>
+                    <section>
+                    	<h3>Vue du client</h3>
+                        <img src="media/telegram01.jpg" width="700" height="500" />
+                    </section>
+                    <section>
+                    	<h3>Vue du client (suite)</h3>
+                        <img src="media/telegram02.jpg" width="700" height="500" />
+                    </section>                    
+                </section>
+
+                <section>
+                    <section>
+                    	<img  style="background: none; border: none; box-shadow: none; margin:0;" src="media/wire.png" height="200"/><br />
+                        <small>#3</small>
+                        <h2>Wire</h2>
+                        <ul>
+                            <li>Chiffrement de bout en bout, Hébergé en Europe, 100% Open Source</li>
+                            <li>Conversation, Partage de fichier & conférences</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img data-src="https://images.ctfassets.net/9p8ymapdtrsv/1BFZogZpbSU8ieiEAs6cAG/b90c0e32d2050268d7248a6c28945e08/features-conversation.png" width="700" height="500"/>
+                    </section>
+                    <section>
+                        <img data-src="https://images.ctfassets.net/9p8ymapdtrsv/1B7qX1lVcI04Qou0uw0osi/7c972b4374dced5d3cb81934c6a1b720/feature-videocall.jpg" width="700" height="500"/>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                    	<img  style="background: none; border: none; box-shadow: none; margin:0;" src="media/signal.png" height="200"/><br />
+                        <small>#4</small>
+                        <h2>Signal</h2>
+                        <ul>
+                            <li>Chiffrement de bout en bout, Open Source, Multiplateforme</li>
+                            <li>Besoin d'un numéro de téléphone & Google Play Services pour fonctionner (Android)</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img data-src="https://signal.org/blog/images/disappearing-messages.jpg" width="700" height="500"/>
+                    </section>
+                    <section>
+                        <video data-src="https://signal.org/blog/images/video.webm" autoplay="true" loop controls/>
+                    </section>                    
+                </section>
+
+                <section>
+                    <section>
+                    	<img style="background: none; border: none; box-shadow: none; margin:0;" src="media/tox.png" height="150"/><br />
+                        <small>#5</small>
+                        <h2>Tox</h2>
+                        <ul>
+                            <li>Open Source, Pair à Pair, Chiffrement</li>
+                            <li>Décentralisé · Multiplateforme
+                        </ul>
+                    </section>
+                    <section>
+                    	<img data-src="https://tox.chat/theme/img/client/qtox_mac.png"/>
+                    </section>
+                    <section>
+                    	<h3>Et même dans un terminal</h3>
+                    	<img data-src="https://tox.chat/theme/img/client/toxic_linux.png"/>
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                    	<img style="background: none; border: none; box-shadow: none; margin:0;" src="media/ring.png" height="200"/><br />
+                        <small>#6</small>
+                        <h2>Ring</h2>
+                        <ul>
+                            <li>Décentralisé · Libre · Multiplateforme </li>
+                            <li>Novateur : Repose sur un protocole DHT & une Blockchain</li>
+
+                        </ul>
+                    </section>
+                    <section>
+                        <img data-src="https://ring.cx/sites/ring.cx/files/styles/desktop_big/public/screens/ubuntu_eng.jpg?itok=4M4TXg-P" />
+                    </section>
+                    <section>
+                        <img data-src="https://ring.cx/sites/ring.cx/files/styles/desktop_big/public/screens/ubuntu_conf.jpg?itok=dD9lVTla" />
+                    </section>
+                </section>
+
+                	<section>
+                        <small>#7</small>
+                        <h2>Les Messageries Instantanées Collaboratives</h2>
+                            <p><small>Slack & Discord dominent ce marché dans les entreprises/associations.<br />
+                            Naturellement Facebook Messenger/WhatsApp ont conquis grand nombres de groupes d'amis et d'assos</small></p>
+                            <p> Petit tour de 3 alternatives</p>
+                	</section>
+
+                <section>
+                    <section>
+                        <img style="background: none; border: none; box-shadow: none; margin:0;" src="media/rocket.png" height="200"/><br />
+                        <small>#8</small>
+                        <h2>Rocket Chat</h2>
+                        <ul>
+                            <li>Multiples intégrations · Personnalisable</li>
+                            <li>Multiplateformes · Traduction en temps réel</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img data-src="https://rocket.chat/images/index/devices@3x.png" width="700" height="500" />
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <img style="background: none; border: none; box-shadow: none; margin:0;" src="media/riot.png" height="200"/><br />
+                        <small>#9</small>
+                        <h2>Riot IM</h2>
+                        <ul>
+                            <li>Repose sur Matrix : Protocole OpenSource et décentralisé</li>
+                            <li>Conversations · Transfert de fichier · VOIP · Chiffrement de bout à bout</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="media/riot-screenshot.png" width="700" height="500"/>
+                    </section>
+                    <section>
+                        <img src="media/riot-screenshot1.png" width="300" height="500" />
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <img style="background: white; border: none; box-shadow: none; margin:0;" src="media/mattermost.png" height="200"/><br />
+                        <small>#10</small>
+                        <h2>Mattermost</h2>
+                        <ul>
+                            <li>Hebergeable · Stockage & intégrations illimités</li>
+                            <li>Version Gratuite pour les communautés · Version payante pour entreprises avec option supplémentaires</li>
+                            <li>Partage de fichiers & vidéo en conversation duo en bêta</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img data-src="https://about.mattermost.com/wp-content/uploads/2017/12/Screenshot-at-Nov-30-11-16-02-1.png" />
+                    </section>
+                    <section>
+                        <img data-src="https://about.mattermost.com/wp-content/uploads/2017/12/Screenshot-at-Dec-06-10-34-09.png" />
+                    </section>
+                    <section>
+                        <img data-src="https://about.mattermost.com/wp-content/uploads/2017/03/reactnative_gif3.gif" />
+                    </section>
+                </section>
+
+                <section>
+                    <section>
+                        <img style="background: none; border: none; box-shadow: none; margin:0;" src="media/keybase.png" height="200"/><br />
+                        <small>#11</small>
+                        <h2>Bonus : Keybase.io</h2>
+                        <ul>
+                            <li>rebuilds parts of matrix builds</li>
+<!--                            <li>use cases:
+                                <ul>
+                                    <li>rerunning false negatives</li>
+                                    <li>testing on a core subset of supported platforms</li>
+                                </ul>
+                            </li>-->
+                        </ul>
+                    </section>
+<!--                    <section>
+                        <img data-src="img/matrix-reloaded-menu.png" />
+                    </section>-->
+                    <section>
+                        <img data-src="img/matrix-reloaded-matrix.png" />
+                    </section>
+                </section>
+
+                <section>
+                    <h1>Thank you.</h1>
+
+                    <p/>
+                    <p>
+                        <small>
+                            <img style=" background: none; border: none; box-shadow: none; margin:0;" height="25" data-src="img/twitter.png" alt="Twitter"> <a href="https://twitter.com/mirocupak">@mirocupak</a> <a href='https://twitter.com/hashtag/DevConfCZ'>#devconfcz</a>
+                            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                            <img style=" background: none; border: none; box-shadow: none; margin:0;" height="25" data-src="img/devconf.png" alt="DevConf.cz"> <a href="http://devconf.cz/f/81">http://devconf.cz/f/81</a>
+                        </small>
+                        <br/>
+                        <small><img style=" background: none; border: none; box-shadow: none; margin:0;" height="25" data-src="img/github.png" alt="Github"> <a href="http://mcupak.github.io/jenkins-plugins-talk">http://mcupak.github.io/jenkins-plugins-talk</a></small>
+                    </p>
+                </section>
+            </div>
+        </div>
+
+        <script src="revealjs/lib/js/head.min.js"></script>
+        <script src="revealjs/js/reveal.js"></script>
+
+        <script>
+            // Full list of configuration options available at:
+            // https://github.com/hakimel/reveal.js#configuration
+            Reveal.initialize({
+                controls: true,
+                progress: true,
+                history: true,
+                center: true,
+                transition: 'slide', // none/fade/slide/convex/concave/zoom
+                // Optional reveal.js plugins
+                dependencies: [
+                    {src: 'revealjs/lib/js/classList.js', condition: function () {
+                            return !document.body.classList;
+                        }},
+                    {src: 'revealjs/plugin/markdown/marked.js', condition: function () {
+                            return !!document.querySelector('[data-markdown]');
+                        }},
+                    {src: 'revealjs/plugin/markdown/markdown.js', condition: function () {
+                            return !!document.querySelector('[data-markdown]');
+                        }},
+                    {src: 'revealjs/plugin/highlight/highlight.js', async: true, condition: function () {
+                            return !!document.querySelector('pre code');
+                        }, callback: function () {
+                            hljs.initHighlightingOnLoad();
+                        }},
+                    {src: 'revealjs/plugin/zoom-js/zoom.js', async: true},
+                    {src: 'revealjs/plugin/notes/notes.js', async: true}
+                ]
+            });
+        </script>
+
+    </body>
+</html>
