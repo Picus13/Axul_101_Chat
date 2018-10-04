@@ -10,7 +10,7 @@ Cette présentation est réalisée dans le cadre du Samedi Libre de l'[AXUL](htt
 
 Pour faire cette présentation sont utilisé, les langages suivants :
 * HTML/CSS
-* Reveal.JS, pour la génération des diapositives 
+* [Reveal.JS](https://github.com/hakimel/reveal.js), pour la génération des diapositives 
 
 La présentation est hébergé avec GitHub Pages
 
